@@ -30,7 +30,10 @@ class PicoSpeakerCharacter extends AnimateAtlasCharacter
 
     this.playAnimation('idle', true, true);
 
-    initTimemap();
+    if (!this.debug)
+    {
+      initTimemap();
+    }
   }
 
   override function dance(force:Bool):Void
