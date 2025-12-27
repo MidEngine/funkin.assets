@@ -25,6 +25,7 @@ import funkin.play.PlayStatePlaylist;
 import funkin.play.stage.Stage;
 import funkin.util.HapticUtil;
 import funkin.util.Constants;
+import funkin.util.TouchUtil;
 
 class SserafimStage extends Stage
 {
