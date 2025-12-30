@@ -238,11 +238,11 @@ class BoyfriendCard extends BackingCard
 
     if(curLevelId == 'sserafim' && curLevelId != prevLevelId){
       moreWays.updateText('SPECIAL');
-      funnyScroll.updateText('SPECIAL');
+      funnyScroll.updateText('SPECIAL SPECIAL');
       txtNuts.updateText('SPECIAL');
-      funnyScroll2.updateText('SPECIAL');
+      funnyScroll2.updateText('SPECIAL SPECIAL');
       moreWays2.updateText('SPECIAL');
-      funnyScroll3.updateText('SPECIAL');
+      funnyScroll3.updateText('SPECIAL SPECIAL');
     }
     else if(prevLevelId == 'sserafim' && curLevelId != prevLevelId)
     {
